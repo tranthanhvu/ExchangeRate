@@ -18,7 +18,6 @@
 		BE53318F2444069A00BB064F /* ExchangeRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE53318E2444069A00BB064F /* ExchangeRateUITests.swift */; };
 		BE53319D244408CB00BB064F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE53319C244408CB00BB064F /* CoreDataStack.swift */; };
 		BE53319F24440DA200BB064F /* AppCoordinater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE53319E24440DA200BB064F /* AppCoordinater.swift */; };
-		BE5331A72444115900BB064F /* ExchangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5331A62444115900BB064F /* ExchangeVC.swift */; };
 		BE5331AA2444688A00BB064F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5331A92444688A00BB064F /* BaseViewController.swift */; };
 		BE5331AD244470CD00BB064F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BE5331AC244470CD00BB064F /* RxSwift */; };
 		BE5331AF244470CD00BB064F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BE5331AE244470CD00BB064F /* RxCocoa */; };
@@ -35,6 +34,12 @@
 		BE5331CC2444D05100BB064F /* CurrencyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5331CB2444D05100BB064F /* CurrencyCoordinator.swift */; };
 		BE5331CE2444D09900BB064F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5331CD2444D09900BB064F /* Coordinator.swift */; };
 		BE5331D02444D16C00BB064F /* CurrencyDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5331CF2444D16C00BB064F /* CurrencyDataProvider.swift */; };
+		BEA0A6F524472AD7004442DA /* ExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0A6F424472AD7004442DA /* ExchangeModel.swift */; };
+		BEA0A6FF24472F52004442DA /* ExchangeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0A6FE24472F52004442DA /* ExchangeCoordinator.swift */; };
+		BEA0A7012447313A004442DA /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0A7002447313A004442DA /* ExchangeViewController.swift */; };
+		BEA0A70324473178004442DA /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0A70224473178004442DA /* ExchangeViewModel.swift */; };
+		BEA7131624478F16005A0FAF /* ExchangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7131424478F16005A0FAF /* ExchangeTableViewCell.swift */; };
+		BEA7131724478F16005A0FAF /* ExchangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA7131524478F16005A0FAF /* ExchangeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +77,6 @@
 		BE5331902444069A00BB064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE53319C244408CB00BB064F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		BE53319E24440DA200BB064F /* AppCoordinater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinater.swift; sourceTree = "<group>"; };
-		BE5331A62444115900BB064F /* ExchangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeVC.swift; sourceTree = "<group>"; };
 		BE5331A92444688A00BB064F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BE5331B2244472B600BB064F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		BE5331B52444732C00BB064F /* UIViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewType.swift; sourceTree = "<group>"; };
@@ -87,6 +91,12 @@
 		BE5331CB2444D05100BB064F /* CurrencyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCoordinator.swift; sourceTree = "<group>"; };
 		BE5331CD2444D09900BB064F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BE5331CF2444D16C00BB064F /* CurrencyDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataProvider.swift; sourceTree = "<group>"; };
+		BEA0A6F424472AD7004442DA /* ExchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeModel.swift; sourceTree = "<group>"; };
+		BEA0A6FE24472F52004442DA /* ExchangeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCoordinator.swift; sourceTree = "<group>"; };
+		BEA0A7002447313A004442DA /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		BEA0A70224473178004442DA /* ExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
+		BEA7131424478F16005A0FAF /* ExchangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewCell.swift; sourceTree = "<group>"; };
+		BEA7131524478F16005A0FAF /* ExchangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,38 +188,24 @@
 		BE5331A024440E3C00BB064F /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				BE5331A3244410C000BB064F /* CurrencyView */,
+				BEA7131324478EBF005A0FAF /* AddCurrencyView */,
+				BEA0A6FC24472F00004442DA /* Provider */,
+				BEA0A6FD24472F0E004442DA /* Coordinator */,
 				BE5331A22444107500BB064F /* ExchangeView */,
-				BE5331A124440E4500BB064F /* MainView */,
 			);
 			path = MVVM;
-			sourceTree = "<group>";
-		};
-		BE5331A124440E4500BB064F /* MainView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MainView;
 			sourceTree = "<group>";
 		};
 		BE5331A22444107500BB064F /* ExchangeView */ = {
 			isa = PBXGroup;
 			children = (
-				BE5331A62444115900BB064F /* ExchangeVC.swift */,
+				BEA0A6F424472AD7004442DA /* ExchangeModel.swift */,
+				BEA0A7002447313A004442DA /* ExchangeViewController.swift */,
+				BEA0A70224473178004442DA /* ExchangeViewModel.swift */,
+				BEA7131424478F16005A0FAF /* ExchangeTableViewCell.swift */,
+				BEA7131524478F16005A0FAF /* ExchangeTableViewCell.xib */,
 			);
 			path = ExchangeView;
-			sourceTree = "<group>";
-		};
-		BE5331A3244410C000BB064F /* CurrencyView */ = {
-			isa = PBXGroup;
-			children = (
-				BE5331C52444C87200BB064F /* CurrencyModel.swift */,
-				BE5331C72444CAC300BB064F /* CurrencyViewModel.swift */,
-				BE5331C92444CFB800BB064F /* CurrencyViewController.swift */,
-				BE5331CB2444D05100BB064F /* CurrencyCoordinator.swift */,
-				BE5331CF2444D16C00BB064F /* CurrencyDataProvider.swift */,
-			);
-			path = CurrencyView;
 			sourceTree = "<group>";
 		};
 		BE5331A82444686F00BB064F /* AbstractClass */ = {
@@ -240,6 +236,33 @@
 				BE5331C02444C32100BB064F /* UINavigationControllerExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		BEA0A6FC24472F00004442DA /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				BE5331CF2444D16C00BB064F /* CurrencyDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		BEA0A6FD24472F0E004442DA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BE5331CB2444D05100BB064F /* CurrencyCoordinator.swift */,
+				BEA0A6FE24472F52004442DA /* ExchangeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BEA7131324478EBF005A0FAF /* AddCurrencyView */ = {
+			isa = PBXGroup;
+			children = (
+				BE5331C52444C87200BB064F /* CurrencyModel.swift */,
+				BE5331C92444CFB800BB064F /* CurrencyViewController.swift */,
+				BE5331C72444CAC300BB064F /* CurrencyViewModel.swift */,
+			);
+			path = AddCurrencyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA7131724478F16005A0FAF /* ExchangeTableViewCell.xib in Resources */,
 				BE5331792444069A00BB064F /* LaunchScreen.storyboard in Resources */,
 				BE5331762444069A00BB064F /* Assets.xcassets in Resources */,
 				BE5331712444069900BB064F /* Main.storyboard in Resources */,
@@ -381,6 +405,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5331BD2444BFF100BB064F /* UIViewExtension.swift in Sources */,
+				BEA0A70324473178004442DA /* ExchangeViewModel.swift in Sources */,
+				BEA0A7012447313A004442DA /* ExchangeViewController.swift in Sources */,
 				BE53319F24440DA200BB064F /* AppCoordinater.swift in Sources */,
 				BE5331CC2444D05100BB064F /* CurrencyCoordinator.swift in Sources */,
 				BE5331C12444C32100BB064F /* UINavigationControllerExtension.swift in Sources */,
@@ -391,16 +417,18 @@
 				BE5331BF2444C17400BB064F /* UIViewControllerExtension.swift in Sources */,
 				BE5331C82444CAC300BB064F /* CurrencyViewModel.swift in Sources */,
 				BE5331742444069900BB064F /* ExchangeRate.xcdatamodeld in Sources */,
+				BEA0A6FF24472F52004442DA /* ExchangeCoordinator.swift in Sources */,
 				BE5331B3244472B600BB064F /* ContainerViewController.swift in Sources */,
 				BE5331CA2444CFB800BB064F /* CurrencyViewController.swift in Sources */,
 				BE53316E2444069900BB064F /* ViewController.swift in Sources */,
+				BEA0A6F524472AD7004442DA /* ExchangeModel.swift in Sources */,
+				BEA7131624478F16005A0FAF /* ExchangeTableViewCell.swift in Sources */,
 				BE53316A2444069900BB064F /* AppDelegate.swift in Sources */,
 				BE5331AA2444688A00BB064F /* BaseViewController.swift in Sources */,
 				BE5331BA244475D700BB064F /* UINavigationControllerType.swift in Sources */,
 				BE53316C2444069900BB064F /* SceneDelegate.swift in Sources */,
 				BE5331C62444C87200BB064F /* CurrencyModel.swift in Sources */,
 				BE5331B82444752F00BB064F /* UIViewControllerType.swift in Sources */,
-				BE5331A72444115900BB064F /* ExchangeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

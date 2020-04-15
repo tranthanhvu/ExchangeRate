@@ -32,7 +32,7 @@ extension UIViewController: UIViewControllerType {
     }
     
     func didMove(toParentViewController parent: UIViewControllerType?) {
-        didMove(toParentViewController: parent as? UIViewController)
+//        didMove(toParentViewController: parent as? UIViewController)
     }
     
     func removeFromParentViewController() {

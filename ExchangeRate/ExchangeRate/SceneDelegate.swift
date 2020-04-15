@@ -11,8 +11,14 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    private var coordinater: AppCoordinater?
     lazy var coreDataStack = CoreDataStack(containerName: "ExchangeRate")
+    
+    private var mainCoordinater: Coordinator?
+    private let navigationController: UINavigationController = {
+        let navigationController = UINavigationController()
+        navigationController.navigationBar.isTranslucent = false
+        return navigationController
+    }()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -22,8 +28,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let navigationController = UINavigationController()
         
-        coordinater = AppCoordinater(navigationController, coreDataStack: coreDataStack)
-        coordinater?.start()
+        mainCoordinater = ExchangeCoordinator(navigationController: navigationController)
+        mainCoordinater?.start()
         
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
