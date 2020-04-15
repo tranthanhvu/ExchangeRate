@@ -21,6 +21,5 @@ final class CurrencyDataProvider: CurrencyDataProviderType {
         }
         
         let req = URLRequest(url: endPointUrl)
-        return URLSection
     }
 }
